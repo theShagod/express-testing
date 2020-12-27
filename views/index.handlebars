@@ -1,0 +1,20 @@
+<h1>members</h1>
+<h3>{{double_brackets_for_variables}}</h3>
+<ul class="list-group">
+    {{#each members}}
+        <li class="list-group-item">{{this.name}}: {{this.email}}</li>
+    {{/each}}
+
+</ul>
+
+<form action="/api/members" method="post" >
+    <div class="form-group">
+        <label for="name">name</label>
+        <input type="text" name="name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="email">email</label>
+        <input type="email" name="email" class="form-control">
+        <input type="submit" value="Add Member" class="btn btn-primary btn-block">
+    </div>
+</form>

@@ -1,0 +1,14 @@
+module.exports = [
+    {
+        "id": 2,
+        "name": "Hilt",
+        "email": "hilt@gmail.com",
+        "status": "active"
+    },
+    {
+        "id": 1,
+        "name": "Hole",
+        "email": "hole@gmail.com",
+        "status": "active"
+    }
+]
