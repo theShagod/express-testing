@@ -24,3 +24,7 @@ The purpose of this project is to practice express.
 
  ### Answers
   - members is an array so changes to members will affect other .js files that are pointing/require towards ./members.js
+ 
+ ### Credits
+ [Traversy YouTube](https://www.youtube.com/watch?v=L72fhGm1tfE)
+ 
